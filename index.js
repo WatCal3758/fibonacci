@@ -1,5 +1,5 @@
 
-fibonacci()
+function fibonacci()
 {
     var num = 1;
     var num2 = 1;
@@ -11,3 +11,5 @@ fibonacci()
         num2 = num + num2;
     }
 }
+
+this.fibonacci();
